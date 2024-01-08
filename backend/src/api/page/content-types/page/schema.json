@@ -80,6 +80,16 @@
         }
       },
       "component": "shared.seo"
+    },
+    "MatthijTestElement": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "elements.mw-test-element"
     }
   }
 }

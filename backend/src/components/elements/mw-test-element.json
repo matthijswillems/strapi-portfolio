@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_elements_mw_test_elements",
+  "info": {
+    "displayName": "mw-test-element",
+    "icon": "thumbDown"
+  },
+  "options": {},
+  "attributes": {
+    "MWTestElementText": {
+      "type": "string"
+    }
+  }
+}

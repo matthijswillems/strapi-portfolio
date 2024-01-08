@@ -1,4 +1,4 @@
 export const FALLBACK_SEO = {
-    title: "Strapi Starter Next Blog",
-    description: "Strapi Starter Next Blog",
+    title: "Portfolio M.M.Willems",
+    description: "Portfolio website by M.M.Willems / Full-stack developer",
 }
