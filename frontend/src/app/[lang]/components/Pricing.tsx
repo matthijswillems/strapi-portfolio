@@ -48,8 +48,10 @@ export default function Pricing({ data }: PriceProps) {
               >
                 <div className="space-y-2">
                   <h4 className="text-3xl font-bold mb-6">{plan.name}</h4>
-                  <span className="text-6xl font-bold ">
-                    {plan.price}
+                  <span className="text-5xl font-bold ">
+                    &euro; {plan.price}
+                    {""}
+                    {Number.isSafeInteger(plan.price) ? ",-" : ""}
                     <span
                       className={`ml-1 text-sm tracking-wid ${
                         plan.isRecommended
